@@ -7,25 +7,51 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Launch countdown timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Red+Hat+Text:wght@700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
 
-  We're launching soon
+  <div class="container">
+   <h1>We're launching soon</h1>
+   <div class="countdown">
+     <div class="stars">
+       <img src="./images/bg-stars.svg" alt="">
+     </div>
+     <div>
+       <h3>Days</h3>
+       <p>{time}</p>
+     </div>
+     <div>
+       <h3>Hours</h3>
+       <p>{time}</p>
+     </div>
+     <div>
+       <h3>Minutes</h3>
+       <p>{time}</p>
+       <div>
+       <h3>Seconds</h3>
+       <p>{time}</p>
+     </div>
+     </div>
+     <div class="hills">
+       <img src="./images/pattern-hills.svg" alt="">
+     </div>
+   </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
+  
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Shaun Van Amersfoort</a>.
   </div>
+  
+  <script src="./app.js"></script>
 </body>
 </html>
