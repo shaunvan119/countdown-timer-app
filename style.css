@@ -50,6 +50,7 @@ body {
 
 .countdown {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     text-align: center;
@@ -107,6 +108,18 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width) {
+    .container {
+        max-width: auto;
+        padding: 0 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 1440px) {
